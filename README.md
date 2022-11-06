@@ -83,7 +83,8 @@
                   else 
                       low=mid+1;
                   }
-                  return low; 
+                  return low; //当查询不到时返回low
+                              //因为前面的if条件，low的值始终比给定值小，即low为按顺序插入的位置
                 }
             }
       ```
