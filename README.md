@@ -20,9 +20,9 @@
  ### 算法入门
  #### DAY 1
  
- <a id = "704">day1</a>
+ <a id = "704"></a>
      
-     * [704 二分查找](https://leetcode.cn/problems/binary-search)`Java` 时间:0ms  内存:41.8 MB
+  * [704 二分查找](https://leetcode.cn/problems/binary-search)`Java` 时间:0ms  内存:41.8 MB
      ```java
         class Solution {
           public int search(int[] nums, int target) {
@@ -43,9 +43,9 @@
          }
      ```
      
- <a id = "278">day1</a>
+ <a id = "278"></a>
      
-      * [278. 第一个错误的版本](https://leetcode.cn/problems/first-bad-version)`Java` 时间:13 ms  内存:38.2 MB
+   * [278 第一个错误的版本](https://leetcode.cn/problems/first-bad-version)`Java` 时间:13 ms  内存:38.2 MB
       ```java
       /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
@@ -66,9 +66,9 @@
             } 
       ```
  
-  <a id = "35">day1</a>
+  <a id = "35"></a>
  
-      * [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position)`Java` 时间:0 ms  内存:41.1 MB
+   * [35 搜索插入位置](https://leetcode.cn/problems/search-insert-position)`Java` 时间:0 ms  内存:41.1 MB
       ```java
           class Solution {
             public int searchInsert(int[] nums, int target) {
