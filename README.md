@@ -7,9 +7,19 @@
 
 # **目录**
  ## 算法
+   * 算法入门
+     |      Day    | ----------- | ----------- | ----------- |
+     | ----------- | ----------- | ----------- | ----------- |
+     |    Day1     | [704 二分查找](####day1) | ----------- | ----------- |
+     |    Day2     | Text        | ----------- | ----------- |
+ 
+ region i { 
+ [704 二分查找](####day1)
+ } region
+ 
 <details>
 <summary>算法入门</summary>
-<a href="https://github.com/huajianyizou/LeetCode/README.md* DAY1">704 二分查找</a>
+[704 二分查找](####day1)
 
 278 第一个错误的版本
 
@@ -20,7 +30,7 @@
 
 ## 算法
  ### 算法入门
- * DAY 1
+ #### DAY 1
      * [704 二分查找](https://leetcode.cn/problems/binary-search)`Java` 时间:0ms  内存:41.8 MB
      ```java
         class Solution {
