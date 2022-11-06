@@ -8,23 +8,11 @@
 # **目录**
  ## 算法
    * 算法入门
-     |      Day    | ----------- | ----------- | ----------- |
-     | ----------- | ----------- | ----------- | ----------- |
-     |    Day1     | [704 二分查找](#day1) | ----------- | ----------- |
-     |    Day2     | Text        | ----------- | ----------- |
+     |      Day    | topic1 | topic2 | 3 |
+     | :-----------: | :-----------: | :-----------: | :-----------: |
+     |    Day1     | [704 二分查找](#704) | [278 第一个错误版本](#278) | [35 搜索插入位置](#35) |
+     |    Day2     | null        | null | null |
  
- region i { 
- [704 二分查找](####day1)
- } region
- 
-<details>
-<summary>算法入门</summary>
-[704 二分查找](####day1)
-
-278 第一个错误的版本
-
-35 搜索插入位置
-</details>
 
 ***
 
@@ -32,7 +20,7 @@
  ### 算法入门
  #### DAY 1
  
- <a id = "day1">day1</a>
+ <a id = "704">day1</a>
      
      * [704 二分查找](https://leetcode.cn/problems/binary-search)`Java` 时间:0ms  内存:41.8 MB
      ```java
@@ -54,7 +42,9 @@
            }
          }
      ```
-         
+     
+ <a id = "278">day1</a>
+     
       * [278. 第一个错误的版本](https://leetcode.cn/problems/first-bad-version)`Java` 时间:13 ms  内存:38.2 MB
       ```java
       /* The isBadVersion API is defined in the parent class VersionControl.
@@ -75,7 +65,9 @@
               }
             } 
       ```
-      
+ 
+  <a id = "35">day1</a>
+ 
       * [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position)`Java` 时间:0 ms  内存:41.1 MB
       ```java
           class Solution {
