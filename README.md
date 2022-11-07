@@ -11,7 +11,7 @@
      |      Day    | topic1 | topic2 | 3 |
      | :-----------: | :-----------: | :-----------: | :-----------: |
      |    Day1     | [704 二分查找](#704) | [278 第一个错误版本](#278) | [35 搜索插入位置](#35) |
-     |    Day2     | null        | null | null |
+     |    Day2     | [977 有序数组的平方](#977) | null | null |
  
 
 ***
@@ -88,6 +88,24 @@
                 }
             }
       ```
+      
+  <a id = "977"></a>    
+    
+   * [977 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array)`Java` 时间:5 ms  内存:43.3 MB
+   ```java
+       class Solution {
+        public int[] sortedSquares(int[] nums) {
+           int []num=new int [nums.length];//定义一个数组储存平方值
+           for(int i=0;i<nums.length;i++){
+               num[i]=nums[i]*nums[i];
+            }//循环求每个数的平方，并存到新的数组中
+            //排序（升序）
+           Arrays.sort(num);//用JAVA自带的排序函数
+           //当然这里也可以用其他排序方法
+           return num;
+          }
+        }
+   ```
       
       
       
